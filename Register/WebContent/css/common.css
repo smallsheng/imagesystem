@@ -1,0 +1,147 @@
+/* 鐠佸墽鐤嗛棁锟界憰浣烘畱閺嶅洨顒烽崘鍛扮珶鐠烘繂鎷版径鏍珶鐠烘繀璐�0閿涘奔绮庡ǎ璇插闂囷拷鐟曚胶娈戦弽鍥╊劮閿涘奔绗夊楦款唴娴ｈ法鏁ら弰鐔峰娇閿涳拷*閿涘鍞弴鍖＄礉娴犮儰绗呮稉铏广仛娓氾拷 */
+* { margin: 0; padding: 0;  font-size: 14px; outline: none; font-family:"Microsoft YaHei", "Apple LiSung Light", "SimSun";}
+
+body{background:url(../images/bg_body.png) left top repeat-x #f0f0f0;padding-bottom:50px;}
+
+/*閸ュ墽澧栭弮鐘虹珶濡楋拷*/
+ img { border: none; }
+.imgwrap img { width: 100%; }
+
+/* 濞撳懘娅庨崚妤勩�冮弽宄扮础鐠佸墽鐤嗛敍灞间簰娑撳璐熺粈杞扮伐閿涘奔绮庨崘娆庣稑閻€劌鍩岄惃鍕垼缁涳拷 */
+
+ul , li{ list-style: none; }
+
+/*閺傚洤鐡х�靛綊缍�*/
+.align_left { text-align: left; }
+.align_center { text-align: center; }
+.align_right { text-align: right; }
+
+/*濞撳懘娅庡ù顔煎З 娑撱倗顫掗弬鐟扮础閺嶈宓侀崗铚傜秼闂囷拷濮瑰倽鍤滈柅锟�*/
+.cf:before, .cf:after { content:"";  display:table;  }
+.cf:after {  clear:both;  }  
+.cf { zoom:1;  } /*閺傜懓绱�1*/
+.of { overflow:hidden; }/*閺傜懓绱�2*/
+
+/*鐢啫鐪鍡樼仸*/
+.m_center{margin:0 auto;}
+.container{position:relative;}
+.container_full{width:100%;}
+.container_half{width:50%;}
+.container_1100{width:1100px;}
+.container_1000{width:1000px;}
+.container_859{width:859px;}
+.container_nav{width:1021px;height:97px;margin:160px auto 30px auto;background:url(../images/bg_nav.png) center center no-repeat;}
+.b_30{margin-bottom:30px;}
+.b_70{margin-bottom:70px;}
+.b_100{margin-bottom:100px;}
+.container_edit {color:#777;line-height:25px;}
+.container_edit p{text-indent:2em;}
+
+/*缁旀瑧鍋ｉ崗顒�鍙￠弽宄扮础*/
+.logo{position:absolute;top:-47px;left:-17px;display:block;width:258px;height:91px;}
+.logo .choose{left: 57%;top: 100px;}
+.icon_nav{display:block;position:relative;}
+.nav{float:left;margin:-126px 0 0 340px;}
+.nav li{float:left;text-align:center;height:195px;position:relative;}
+.nav_txt{font-size:16px;color:#5f431b;text-shadow:0px 1px 0px #e1caae;display:block;height:50px;line-height:45px;font-weight:bold;}
+.nav .focus , .nav_txt:hover , nav li:hover .nav_txt{color:#35230a;}
+.navItem_1{margin-right:60px;}
+.navItem_2{margin-right:130px;}
+.navItem_3{margin-right:70px;}
+.navItem_4{margin-right:0px;}
+.icon_nav_2{margin:19px 0 0 0;}
+.icon_nav_3{margin:26px 0 0 0;}
+.icon_nav_4{margin:37px 0 0 0;}
+
+/*妫ｆ牠銆夐梾鏃�婢�*/
+.container_geban{width:934px;height:380px;background:url(../images/bg_geban.png) center bottom no-repeat;margin:0 auto;}
+.container_indexmain{width:100%;height:100%;}
+.diannao{position:absolute;left:50%;margin-left:-210px;bottom:52px;}
+.gaoguang_diannao{position:absolute;z-index:2;right:19px;top:0px;}
+.ps{position:absolute;right:90px;bottom:54px;}
+.footer{position:fixed;width:100%;left:0;bottom:0;text-align:center;height:30px;line-height:30px;font-size:12px;background:#fafafa;border-top:1px solid #ededed;color:#a8a8a8;font-family:"SimSun";text-shadow:0 1px 0 #fff;z-index:5;}
+.footer * {font-family: "SimSun";font-size: 12px;}
+
+/*妫ｆ牠銆夐拕鎾规（*/
+.container_manteng{width:410px;margin-bottom:20px;}
+.ye{position:absolute;z-index:1;}
+.ye1{left: -9px;top: 66px;
+	transform-origin: 20px 2px;
+	-moz-transform-origin: 20px 2px;
+	-webkit-transform-origin: 20px 2px;
+	-o-transform-origin: 20px 2px;
+	animation: ye1 infinite alternate 0.8s ease-in-out;
+	-moz-animation: ye1 infinite alternate 0.8s ease-in-out;
+	-webkit-animation: ye1 infinite alternate 0.8s ease-in-out;
+	-o-animation: ye1 infinite alternate 0.8s ease-in-out;
+}
+.ye2{left: 4px;top: 118px;
+	transform-origin: 30px 9px;
+	-moz-transform-origin: 30px 9px;
+	-webkit-transform-origin: 30px 9px;
+	-o-transform-origin: 30px 9px;
+	animation: ye2 infinite alternate 0.8s ease-in-out;
+	-moz-animation: ye2 infinite alternate 0.8s ease-in-out;
+	-webkit-animation: ye2 infinite alternate 0.8s ease-in-out;
+	-o-animation: ye2 infinite alternate 0.8s ease-in-out;
+}
+.ye3{left: 57px;top: 111px;
+	transform-origin: 5px 10px;
+	-moz-transform-origin: 5px 10px;
+	-webkit-transform-origin: 5px 10px;
+	-o-transform-origin: 5px 10px;
+	animation: ye3 infinite alternate 0.5s ease-in-out;
+	-moz-animation: ye3 infinite alternate 0.5s ease-in-out;
+	-webkit-animation: ye3 infinite alternate 0.5s ease-in-out;
+	-o-animation: ye3 infinite alternate 0.5s ease-in-out;
+}
+.ye4{left: 273px;top: 63px;
+	transform-origin: 5px 16px;
+	-moz-transform-origin: 5px 16px;
+	-webkit-transform-origin: 5px 16px;
+	-o-transform-origin: 5px 16px;
+	animation: ye4 infinite alternate 1s ease-in-out;
+	-moz-animation: ye4 infinite alternate 1s ease-in-out;
+	-webkit-animation: ye4 infinite alternate 1s ease-in-out;
+	-o-animation: ye4 infinite alternate 1s ease-in-out;
+}
+.ye5{left: 335px;top: 0px;
+	transform-origin: 7px 10px;
+	-moz-transform-origin: 7px 10px;
+	-webkit-transform-origin: 7px 10px;
+	-o-transform-origin: 7px 10px;
+	animation: ye5 infinite alternate 0.3s ease-in-out;
+	-moz-animation: ye5 infinite alternate 0.3s ease-in-out;
+	-webkit-animation: ye5 infinite alternate 0.3s ease-in-out;
+	-o-animation: ye5 infinite alternate 0.3s ease-in-out;
+}
+.ye6{left: 395px;top: 72px;
+	transform-origin: 6px 18px;
+	-moz-transform-origin: 6px 18px;
+	-webkit-transform-origin: 6px 18px;
+	-o-transform-origin: 6px 18px;
+	animation: ye6 infinite alternate 0.3s ease-in-out;
+	-moz-animation: ye6 infinite alternate 1s ease-in-out;
+	-webkit-animation: ye6 infinite alternate 0.3s ease-in-out;
+	-o-animation: ye6 infinite alternate 0.3s ease-in-out;
+}
+.ye7{left: 94px;top: 82px;
+	animation: ye7 infinite 8s ease-in-out;
+	-moz-animation: ye7 infinite 8s ease-in-out;
+	-webkit-animation: ye7 infinite 8s ease-in-out;
+	-o-animation: ye7 infinite 8s ease-in-out;
+}
+
+/*妫ｆ牠銆夋潪顔芥尡*/
+.lunbo_tip , .lunbo , .lunbo li , .lunbo li a{width:349px;height:197px;}
+.lunbo ,  .lunbo_tip {position:absolute;z-index:1;left:34px;}
+.lunbo{top:16px;}
+.lunbo li {position:absolute;left:0;top:0;text-align:center;overflow:hidden;}
+.lunbo li a {display:block;}
+.p1{margin-top:50px;margin-bottom:20px;}
+.p1 , .p2{margin-left:100%;width:100%;}
+
+.lunbo_tip{bottom:95px;height:0px;z-index:3}
+.lunbo_tip , .lunbo_tip li{text-align:center;}
+.lunbo_tip li{display:inline-block;width:8px ;height:8px;background:#fff;border-radius:100px;cursor:pointer;background-position:center center;background-repeat:no-repeat;}
+.lunbo_tip .focus{background:#ff8b00;}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+         <group android:checkableBehavior="single">
+             <item
+                 android:id="@+id/nav_mydata"
+                 android:icon="@drawable/ic_action_user2"
+                 android:title="用户信息"
+                 />
+
+             <item
+                 android:id="@+id/nav_updata"
+                 android:icon="@drawable/ic_action_tag3"
+                 android:title="更新资料"
+                 />
+
+             <item
+                 android:id="@+id/nav_day"
+                 android:icon="@drawable/ic_action_send4"
+                 android:title="每日推送"
+                 />
+
+             <item
+                 android:id="@+id/nav_about"
+                 android:icon="@drawable/ic_action_train5"
+                 android:title="关于我们"
+                 />
+
+         </group>
+</menu>

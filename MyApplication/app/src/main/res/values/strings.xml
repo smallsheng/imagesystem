@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">雷神识图</string>
+    <string name="title_activity_up_data">UpDataActivity</string>
+    <string name="title_activity_updata">updata</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shinelon.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/qweasdzxc"
+        android:label="雷神识图"
+        android:roundIcon="@drawable/qweasdzxc"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="雷神识图" />
+      <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+      </activity>
+
+
+
+        <activity android:name=".MyDataActivity" />
+        <activity
+            android:name=".updata"
+            android:label="@string/title_activity_updata"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".DayActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity
+            android:name=".PictureActivity"
+            android:theme="@style/PictureActivityTheme"></activity>
+    </application>
+</manifest>
